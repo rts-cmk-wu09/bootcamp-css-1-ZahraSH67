@@ -9,6 +9,8 @@ Du skal bruge din HTML-kode fra HTML Basecamp #1.
 - Hvis der er billeder på din hjemmeside skal de styles, så de ikke fylder alt for meget. Du skal være opmærksom på billedernes aspect-ratio.
 - Hvis du har en tabel eller en liste på din hjemmeside, skal du bruge pseudo-selectors til at vælge den sidste række eller sidste liste-element og style det anderledes end de øvrige elementer (fx en anden baggrundsfarve).
 - Få to ting til at stå ved siden af hinanden. Du skal bruge den værste metode du kan tænke dig frem til, og du skal forklare hvorfor det er en dårlig metode.
+Jeg brugte "position: absolute", fordi det ikke er responsive. Desuden skal vi også give en css style til den her objekt til at sætte den på rigtig plads. Så det er afhængig til andre objekter. 
+
 - Lav afstand imellem flere elementer.
 - Ændr farven på en stykke tekst.
 
