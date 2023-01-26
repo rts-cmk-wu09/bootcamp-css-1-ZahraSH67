@@ -1,0 +1,49 @@
+body{
+    background-color: gainsboro;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li a {
+    text-decoration: none;
+}
+header nav ul li:nth-child(4){
+    border: 1px solid aqua;
+    background-color: aqua;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.introduction{
+    margin: 40px 0;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 30px;
+}
+
+.description{
+    font-family: 'Merriweather', serif; 
+    position: relative;
+}
+.Subscription h4{
+    position: absolute;
+    bottom:  65vh;
+    left: 30vw;
+}
+.why-us{
+    margin: 50px 20px;
+}
+.why-us ul li{
+  
+    padding-bottom: 10px;
+}
+.about-us p{
+    color: blueviolet;
+}
+
